@@ -40,6 +40,6 @@ def test_get_library_by_id(url: str):
 
 
 if __name__ == '__main__':
-    URL = 'http://127.0.0.1:80/api/v1/libraries/'
+    URL = 'http://127.0.0.1:8080/api/v1/libraries/'
     test_get_library_by_id(URL + '1')
     test_get_all_libraries(URL)
