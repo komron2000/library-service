@@ -32,7 +32,7 @@ def test_get_all_libraries(url: str):
 
 def test_get_library_by_id(url: str):
     res = requests.get(url).json()
-    assert(res == {'library_id': 1,
+    assert(res == {'libraries_id': 1,
               'name': 'Central Library',
               'address': '123 Main Street',
               'square_meters': 5000,
